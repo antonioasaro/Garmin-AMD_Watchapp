@@ -1,0 +1,12 @@
+<layout id="MainLayout">
+    <label  x="46"     y="4"   id="id_date"     font="Gfx.FONT_MEDIUM"></label>
+    <bitmap x="148"    y="3"   id="id_btstatus"  filename="../drawables/connect.png"></bitmap>
+    
+    <label  x="40"     y="26"  id="id_temp"      font="Gfx.FONT_MEDIUM" text="--°C"></label>
+    <bitmap x="90"     y="30"  id="id_wtstatus"  filename="../drawables/blank.png"></bitmap>
+    <label  x="128"    y="22"  id="id_stock"     text='$--.--' font="Gfx.FONT_MEDIUM"></label>
+    
+    <label  x="116"    y="35"  id="id_time"      text="@Strings.prompt" justification="Gfx.TEXT_JUSTIFY_CENTER" font="Gfx.FONT_NUMBER_THAI_HOT" color="Gfx.COLOR_GREEN"/>
+    
+    <bitmap x="center" y="132" id="id_amd_logo"  filename="../drawables/amd_logo_final.png" ></bitmap>
+</layout>
